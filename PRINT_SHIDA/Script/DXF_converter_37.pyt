@@ -2,6 +2,7 @@ import arcpy
 import os
 import pythonaddins
 
+
 class Toolbox(object):
     def __init__(self):
         self.label = "CAD to SHP Converter"
